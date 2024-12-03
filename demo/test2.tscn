@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cucspcaqv7jaj"]
+
+[ext_resource type="RiveResource" uid="uid://bimx7rnsis7b2" path="res://checkpoint_ui-transparent.riv" id="1_qbqv0"]
+[ext_resource type="Script" path="res://RiveControlTesting.gd" id="2_mj222"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RiveControl" type="RiveControl" parent="."]
+resource = ExtResource("1_qbqv0")
+artboard = &"New Artboard"
+offset_left = 111.0
+offset_top = 56.0
+offset_right = 299.0
+offset_bottom = 160.0
+script = ExtResource("2_mj222")

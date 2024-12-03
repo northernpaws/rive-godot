@@ -1,0 +1,25 @@
+{
+  "name" : "rive-godot",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "b8a5f242bad27d96572c5836dc649b6a10e728fc",
+  "dependencies" : [ {
+    "name" : "vulkan",
+    "version>=" : "2023-12-17"
+  }, {
+    "name" : "skia",
+    "features" : [ "gl", "metal", "vulkan" ]
+  }, {
+    "name" : "egl",
+    "version>=" : "2022-12-04"
+  }, {
+    "name" : "opengl",
+    "version>=" : "2022-12-04#3"
+  }, {
+    "name" : "glfw3",
+    "version>=" : "3.4"
+  }],
+  "overrides" : [ {
+    "name" : "skia",
+    "version" : "0.36.0#7"
+  } ]
+}

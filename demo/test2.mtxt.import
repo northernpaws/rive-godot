@@ -1,0 +1,17 @@
+[remap]
+
+importer="demos.sillymaterial"
+type="StandardMaterial3D"
+uid="uid://bw76aps621sq4"
+path="res://.godot/imported/test2.mtxt-6c7351383c492ec176febca5bf627773.material"
+
+[deps]
+
+files=["res://.godot/imported/test2.mtxt-6c7351383c492ec176febca5bf627773.next_pass.material"]
+
+source_file="res://test2.mtxt"
+dest_files=["res://.godot/imported/test2.mtxt-6c7351383c492ec176febca5bf627773.material", "res://.godot/imported/test2.mtxt-6c7351383c492ec176febca5bf627773.next_pass.material"]
+
+[params]
+
+use_red_anyway=false

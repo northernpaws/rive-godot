@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://o15x46npb40p"]
+
+[node name="Control" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
